@@ -19,3 +19,9 @@ Category.delete_all
 Category.create(description: "Gardening")
 Category.create(description: "Bike")
 Category.create(description: "Painting")
+
+User.delete_all
+
+User.create(first_name: "Mike", last_name: "Anderson", user_name: "Madmike", zipcode: "3417gp", adress:"heeswijk 187 Montfoort", email:"mike@test.com", encrypted_password:"password")
+User.create(first_name: "Lisa", last_name: "Veldhuizen", user_name: "LisaV", zipcode: "3552ac", adress:"hogelanden 60 Utrecht", email:"lisa@test.com", encrypted_password:"password")
+User.create(first_name: "Merel", last_name: "Groen", user_name: "Mergroen", zipcode: "3512ac", adress:"jansvel 35 Utrecht", email:"merel@test.com", encrypted_password:"password")
