@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  availability: false
+  start_aval: 2016-07-15
+  finish_aval: 2016-07-15
+
+two:
+  name: MyString
+  description: MyText
+  availability: false
+  start_aval: 2016-07-15
+  finish_aval: 2016-07-15
