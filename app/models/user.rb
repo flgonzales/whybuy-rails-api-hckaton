@@ -10,7 +10,8 @@ class User < ActiveRecord::Base
   private
 
   def update_access_token!
-    sefl.access_token = "#{self.id}:#{Devise.friendly_token}"
+    self.access_token = "#{self.id}:#{Devise.friendly_token}"
     save
   end
+  
 end
