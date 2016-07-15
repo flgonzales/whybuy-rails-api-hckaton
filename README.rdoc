@@ -1,3 +1,12 @@
+==LIST OF GEMS TO BE USED
+gem 'rails_12factor', group: :production
+gem 'rack-cors', require: 'rack/cors'
+gem 'carrierwave'
+gem 'cloudinary'
+gem 'devise', '~> 3.5'
+gem install faker
+
+
 == README
 
 This README would normally document whatever steps are necessary to get the
